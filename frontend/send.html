@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Send - Secure Stego</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="send.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Send Secure Message</h1>
+      <div>
+        <span id="who" class="small"></span>
+        <button id="goInbox" class="secondary">Open Inbox</button>
+        <button id="logout" class="secondary">Logout</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="form-row">
+        <label>Receiver</label>
+        <select id="receiver"></select>
+      </div>
+      <div class="form-row">
+        <label>Cover Image (png/jpg)</label>
+        <input id="cover" type="file" accept="image/*">
+      </div>
+      <div class="form-row">
+        <label>Secret Message</label>
+        <textarea id="message" rows="5"></textarea>
+      </div>
+      <div class="form-row">
+        <button id="btnSend">Send Secure Message</button>
+      </div>
+      <div id="status" class="small"></div>
+    </div>
+  </div>
+</body>
+</html>

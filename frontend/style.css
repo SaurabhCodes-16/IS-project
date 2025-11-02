@@ -1,0 +1,12 @@
+/* frontend/style.css */
+body { font-family: Arial, sans-serif; background:#0f1724; color:#e6eef8; margin:0; padding:0; }
+.container { max-width:900px; margin:30px auto; padding:20px; background:#0b1220; border-radius:8px; box-shadow:0 6px 20px rgba(0,0,0,0.6); }
+.header { display:flex; justify-content:space-between; align-items:center; }
+h1 { margin:0; font-size:20px; color:#fff; }
+.form-row { margin-top:12px; }
+input, textarea, select { width:100%; padding:8px; border-radius:6px; border:1px solid #23304a; background:#071028; color:#e6eef8; }
+button { background:#1f8ef1; color:white; padding:8px 12px; border:none; border-radius:6px; cursor:pointer; margin-top:10px; }
+button.secondary { background:#334155; }
+.card { background:#071224; padding:12px; border-radius:6px; margin-top:12px; border:1px solid #122433; }
+.small { font-size:13px; color:#9fb4d6; }
+
